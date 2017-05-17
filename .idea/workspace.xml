@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2d278a-f886-4090-8678-0e1e4888204b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/public/css/stylish-portfolio.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="$PROJECT_DIR$/public/img/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/callout.jpg" afterPath="$PROJECT_DIR$/public/img/callout.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio-1.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio-2.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio-3.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio-4.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="$PROJECT_DIR$/public/js/jquery.js" />
-    </list>
+    <list default="true" id="9c2d278a-f886-4090-8678-0e1e4888204b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +54,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Weigel Security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Weigel Security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Weigel Security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,12 +199,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491590574681</updated>
-      <workItem from="1491590585188" duration="253000" />
+      <workItem from="1491590585188" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253000" />
+    <option name="totallyTimeSpent" value="304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="280" y="63" width="1400" height="983" extended-state="0" />
