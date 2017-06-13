@@ -221,37 +221,6 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                     <!-- /.row (nested) -->
                 </div>
                 <!-- /.col-lg-10 -->
@@ -259,8 +228,41 @@
             <!-- /.row -->
         </div>
         <!-- /.container -->
+        <div class="w3-content w3-section text-center" style="padding-left:20%; padding-right:20%">
+            <img class="mySlides" src="img/portfolio-1.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-2.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-3.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-4.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-5.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-6.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-7.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-8.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-9.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-10.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-11.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-12.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-13.jpg" style="width:100%">
+            <img class="mySlides" src="img/portfolio-14.jpg" style="width:100%">
+        </div>
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1} 
+                x[slideIndex-1].style.display = "block"; 
+                setTimeout(carousel, 5000); // Change image every 2 seconds
+            }
+        </script>
     </section>
 
+    
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
         <div class="container">
